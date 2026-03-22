@@ -27,6 +27,9 @@ override.tf.json
 # Ignore transient lock info files created by terraform apply
 .terraform.tfstate.lock.info
 
+# This file should not be ignored if you want to ensure consistent provider versions across different environments and team members.
+!.terraform.lock.hcl
+
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
