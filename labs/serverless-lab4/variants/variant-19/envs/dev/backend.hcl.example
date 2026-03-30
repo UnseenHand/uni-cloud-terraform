@@ -1,0 +1,5 @@
+bucket       = "tf-state-lab4-surname-name"
+key          = "variants/variant-19/envs/dev/terraform.tfstate"
+region       = "eu-central-1"
+encrypt      = true
+use_lockfile = true
